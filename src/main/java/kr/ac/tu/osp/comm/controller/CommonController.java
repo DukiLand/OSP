@@ -10,5 +10,10 @@ public class CommonController {
 	public String index() {
 		return "Open Source Program..";
 	}
+	
+	@GetMapping("/osp")
+	public String osp() {
+		return "Git에서 수정..";
+	}
 
 }
